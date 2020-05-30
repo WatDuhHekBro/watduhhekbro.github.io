@@ -17,9 +17,8 @@ function addLink(url, title)
 {
 	let link = document.createElement('li');
 	let text = document.createElement('a');
-	url = new URL(url);
 	
-	text.href = url.pathname;
+	text.href = url;
 	text.innerText = title;
 	
 	link.append(text);
@@ -36,7 +35,7 @@ request("https://api.github.com/users/WatDuhHekBro/repos", (data) => {
 			updated.innerText = `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()} @ ${date.toLocaleTimeString(undefined, {timeZoneName: 'short'})}`;
 		}
 		else if(repo.homepage !== null && repo.homepage !== "" && !repo.archived)
-			addLink(repo.homepage, repo.name);
+			addLink(new URL(repo.homepage).pathname, repo.name);
 	}
 	
 	addLink("https://github.com/WatDuhHekBro", "My GitHub Page");
