@@ -1,25 +1,22 @@
-html, body
-{
+html,
+body {
 	margin: 0;
 	height: 100%;
 	overflow: hidden;
 }
 
-p
-{
+p {
 	margin: 8px 0px;
 }
 
-#header
-{
+#header {
 	border-bottom: 3px solid black;
 	padding: 10px;
 	background: #a3ddff;
 	text-align: center;
 }
 
-#sidebar
-{
+#sidebar {
 	border-right: 3px solid black;
 	padding: 10px;
 	background: #99ff80;
@@ -29,45 +26,38 @@ p
 	text-align: center;
 }
 
-ul
-{
+ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	border: 2px solid black;
 }
 
-li
-{
+li {
 	border-top: 2px solid black;
 }
 
-li:first-child
-{
+li:first-child {
 	border-top: none;
 }
 
-li a
-{
+li a {
 	display: block;
 	padding: 10px;
 	background: #4dc42f;
 	color: white;
 }
 
-li a:hover
-{
+li a:hover {
 	background: #81e66a;
 }
 
-li a:active
-{
+li a:active {
 	background: #ff584d;
 	color: blue;
 }
 
-#main
-{
+#main {
 	padding: 20px;
 	padding-top: 15px;
 	background: linen;
@@ -75,8 +65,7 @@ li a:active
 	overflow: scroll;
 }
 
-#footer
-{
+#footer {
 	background: #ffcf4a;
 	padding: 20px;
 	border-top: 3px solid black;
@@ -85,23 +74,23 @@ li a:active
 	width: 100%;
 }
 
-#footer *
-{
+#footer * {
 	display: block;
 	margin: auto;
 }
 
 /* This code block is from antonj's answer to https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box */
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button
-{
+input::-webkit-inner-spin-button {
 	/* display: none; <- Crashes Chrome on hover */
 	-webkit-appearance: none;
-	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	margin: 0;
+	/* <-- Apparently some margin are still there even though it's hidden */
 }
 
-input[type=number]
-{
-	-moz-appearance:textfield; /* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+	/* Firefox */
 }
+
 /* This code block ends. */

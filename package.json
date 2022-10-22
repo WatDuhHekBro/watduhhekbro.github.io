@@ -1,0 +1,20 @@
+{
+	"name": "watduhhekbro.github.io",
+	"scripts": {
+		"start": "node build.js && npm run sass-release",
+		"server": "http-server ./docs -p 3000",
+		"format": "prettier --write .",
+		"sass-release": "sass style.scss docs/style.css --no-source-map --style=compressed",
+		"sass-debug": "sass style.scss docs/style.css"
+	},
+	"dependencies": {
+		"@ltd/j-toml": "^1.35.2",
+		"http-server": "^14.1.1",
+		"prettier": "^2.7.1",
+		"pug": "^3.0.2",
+		"sass": "^1.55.0"
+	},
+	"prettier": {
+		"useTabs": true
+	}
+}
