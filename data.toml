@@ -1,0 +1,132 @@
+[[repositories]]
+name = "bindiff"
+url = "https://github.com/WatDuhHekBro/bindiff"
+description = "This is a lightweight command line tool that scans for files that are identical in data but which might not have the same file name."
+
+[[repositories]]
+name = "cc-spin-to-win"
+url = "https://github.com/WatDuhHekBro/cc-spin-to-win"
+description = "CrossCode CCLoader Mod - Changes the idle animation to a T-Pose which then spins faster and faster."
+
+[[repositories]]
+name = "cc-undertale-sfx"
+url = "https://github.com/WatDuhHekBro/cc-undertale-sfx"
+description = "CrossCode CCLoader Mod - Replace the default text sound with ones from Undertale."
+
+[[repositories]]
+name = "cc-uwuifier"
+url = "https://github.com/WatDuhHekBro/cc-uwuifier"
+description = "CrossCode CCLoader Mod - Dynamically uwuifies text."
+
+[[repositories]]
+name = "cc-vietnamese-font"
+url = "https://github.com/WatDuhHekBro/cc-vietnamese-font"
+description = "A simple CCLoader mod adding support for extra characters from Vietnamese to the base font."
+
+[[repositories]]
+name = "cc-voice-mod"
+url = "https://github.com/WatDuhHekBro/cc-voice-mod"
+description = "CrossCode CCLoader Mod - An attempt at reconstructing the CCVoiceActing mod from the ground up."
+
+[[repositories]]
+name = "CCAreaEditor"
+url = "https://github.com/WatDuhHekBro/CCAreaEditor"
+description = "A CrossCode modding tool that allows you to graphically edit areas."
+website = "https://watduhhekbro.github.io/CCAreaEditor/"
+
+[[repositories]]
+name = "CCModManager"
+url = "https://github.com/WatDuhHekBro/CCModManager"
+description = "An ingame mod manager for CrossCode"
+
+[[repositories]]
+name = "CrossExchange"
+url = "https://github.com/WatDuhHekBro/CrossExchange"
+description = "Yet another Discord bot."
+
+[[repositories]]
+name = "DynamicResizer"
+url = "https://github.com/WatDuhHekBro/DynamicResizer"
+description = "A simple window resizer with customizable presets and a responsive control panel."
+
+[[repositories]]
+name = "JSONTools"
+url = "https://github.com/WatDuhHekBro/JSONTools"
+description = "JSON Searching and my personal JSON Spacer"
+website = "https://watduhhekbro.github.io/JSONTools/"
+
+[[repositories]]
+name = "Jukebox"
+url = "https://github.com/WatDuhHekBro/Jukebox"
+description = "A standalone browser program to play songs with complex looping indefinitely."
+
+[[repositories]]
+name = "media-dl"
+url = "https://github.com/WatDuhHekBro/media-dl"
+description = "A intermediary script to simplify the process of using youtube-dl via presets/flags."
+
+[[repositories]]
+name = "OnionLasers"
+url = "https://github.com/WatDuhHekBro/OnionLasers"
+description = "A declarative, structure-agnostic, TypeScript-centric command handler for discord.js."
+
+[[repositories]]
+name = "OnlineKeyboard"
+url = "https://github.com/WatDuhHekBro/OnlineKeyboard"
+description = "The new version of Transcription."
+website = "https://watduhhekbro.github.io/OnlineKeyboard/"
+
+[[repositories]]
+name = "Presence-Footsteps-Forge-1.18"
+url = "https://github.com/WatDuhHekBro/Presence-Footsteps-Forge-1.18"
+description = "An overly complicated footstep sound enhancement mod for Minecraft"
+website = "presencefootsteps.ha3.eu"
+
+[[repositories]]
+name = "RPGMaker2kPatcher"
+url = "https://github.com/WatDuhHekBro/RPGMaker2kPatcher"
+description = "Made solely for personal use, but if you find it useful, then go ahead."
+website = "https://watduhhekbro.github.io/RPGMaker2kPatcher/"
+
+[[repositories]]
+name = "SAC"
+url = "https://github.com/WatDuhHekBro/SAC"
+description = "My goal for this is to merge all the calculators into one page where you don't have to go to other pages to calculate stuff like ratios and factors, also time eventually. For more complex stuff like calculating derivatives and graphs, I'll include links to some high-quality calculators."
+website = "https://watduhhekbro.github.io/SAC/"
+
+[[repositories]]
+name = "Transcription"
+url = "https://github.com/WatDuhHekBro/Transcription"
+description = "This is a configurable GUI which automatically transcribes (NOT translates) your plain keyboard into other languages."
+
+[[repositories]]
+name = "VelsarborEnglish"
+url = "https://github.com/WatDuhHekBro/VelsarborEnglish"
+description = "A battle has broken out. In the midst of a high-tech underground complex, the Brigantine Order has invaded in order to reach the machine core and tap into the power within. Blood is spilt on both sides, the chaos representing the pinnacle of both nations' immense power. Just when the battle seems to be at a permanent stalement, there's only one problem: The mission has been compromised."
+
+[[repositories]]
+name = "VoidBot"
+url = "https://github.com/WatDuhHekBro/VoidBot"
+description = "An experimental Discord bot using Serenity."
+
+[[repositories]]
+name = "vscode"
+url = "https://github.com/WatDuhHekBro/vscode"
+description = "Visual Studio Code"
+website = "https://code.visualstudio.com"
+
+[[repositories]]
+name = "watduhhekbro.github.io"
+url = "https://github.com/WatDuhHekBro/watduhhekbro.github.io"
+description = "This is my main page for my GitHub sites that'll act as a centralized hub for accessing my repos (not all of them though). For now, it's just a page with links, but it might become something else if I decide on something."
+website = "https://watduhhekbro.github.io/"
+
+[[repositories]]
+name = "ZGamepad"
+url = "https://github.com/WatDuhHekBro/ZGamepad"
+description = "Some very W.I.P. code with the goal of creating an app that functions as a makeshift controller."
+
+[[repositories]]
+name = "ZTransfer"
+url = "https://github.com/WatDuhHekBro/ZTransfer"
+description = "A program that makes use of websockets to provide a real-time interface for simple LAN file transfer."

@@ -1,17 +1,22 @@
 {
 	"name": "watduhhekbro.github.io",
 	"scripts": {
-		"start": "node build.js && npm run sass-release",
-		"server": "http-server ./docs -p 3000",
+		"start": "nodemon -e html,njk,js,css,scss,json,toml -i docs/ -x npm run watch",
+		"build": "node build.js && npm run sass-release",
 		"format": "prettier --write .",
+		"watch": "node build.js && npm run sass-debug && npm run server",
+		"server": "http-server ./docs -p 3000",
 		"sass-release": "sass style.scss docs/style.css --no-source-map --style=compressed",
 		"sass-debug": "sass style.scss docs/style.css"
 	},
 	"dependencies": {
 		"@ltd/j-toml": "^1.35.2",
+		"html-minifier-terser": "^7.0.0",
 		"http-server": "^14.1.1",
+		"node-fetch": "^2.6.7",
+		"nodemon": "^2.0.20",
+		"nunjucks": "^3.2.3",
 		"prettier": "^2.7.1",
-		"pug": "^3.0.2",
 		"sass": "^1.55.0"
 	},
 	"prettier": {

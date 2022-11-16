@@ -1,20 +1,38 @@
-const pug = require("pug");
+const fs = require("fs/promises");
+const nunjucks = require("nunjucks");
+const { minify } = require("html-minifier-terser");
 const toml = require("@ltd/j-toml");
-const fs = require("fs");
-const data = toml.parse(fs.readFileSync("data.toml"));
 
-// Assume that the "docs" and "templates" directories exist for the sake of simplicity.
+(async () => {
+	const data = toml.parse(
+		await fs.readFile("data.toml", { encoding: "utf-8" })
+	);
 
-fs.writeFileSync(
-	"docs/index.html",
-	pug.renderFile("templates/index.pug", {
-		name: "asdf",
-	})
-);
+	console.log(data);
 
-fs.writeFileSync(
-	"docs/404.html",
-	pug.renderFile("templates/404.pug", {
-		name: "zxcv",
-	})
-);
+	// Assume that the "docs" and "templates" directories exist for the sake of simplicity.
+	await Promise.all([
+		fs.writeFile(
+			"docs/index.html",
+			await minify(
+				nunjucks.render("templates/index.njk", {
+					name: "asdf",
+				}),
+				{
+					collapseWhitespace: true,
+				}
+			)
+		),
+		fs.writeFile(
+			"docs/404.html",
+			await minify(
+				nunjucks.render("templates/404.njk", {
+					name: "zxcv",
+				}),
+				{
+					collapseWhitespace: true,
+				}
+			)
+		),
+	]);
+})();
