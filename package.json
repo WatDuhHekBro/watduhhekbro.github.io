@@ -6,8 +6,8 @@
 		"format": "prettier --write .",
 		"watch": "node build.js && npm run sass-debug && npm run server",
 		"server": "http-server ./docs -p 3000",
-		"sass-release": "sass style.scss docs/style.css --no-source-map --style=compressed",
-		"sass-debug": "sass style.scss docs/style.css"
+		"sass-release": "sass style.scss docs/style.css --style=compressed --no-source-map",
+		"sass-debug": "sass style.scss docs/style.css --style=compressed"
 	},
 	"dependencies": {
 		"@ltd/j-toml": "^1.35.2",

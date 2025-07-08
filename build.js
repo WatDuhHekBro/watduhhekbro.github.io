@@ -8,8 +8,6 @@ const toml = require("@ltd/j-toml");
 		await fs.readFile("data.toml", { encoding: "utf-8" })
 	);
 
-	console.log(data);
-
 	// Assume that the "docs" and "templates" directories exist for the sake of simplicity.
 	await Promise.all([
 		fs.writeFile(
